@@ -1,0 +1,186 @@
+/*
+ * JFTL 2026 – Thème global Slidev
+ * Reproduit fidèlement la charte graphique du template PPTX JFTL 2026
+ *
+ * Palette de couleurs extraite du thème PPTX :
+ *   Fond principal  : #2D354B  (navy sombre)
+ *   Fond très sombre: #02111B
+ *   Cramoisie       : #BB3949  (accent cover)
+ *   Bleu primaire   : #156082
+ *   Bleu vif        : #0F9ED5  (accent courant)
+ *   Rouge foncé     : #C00000
+ *   Texte principal : #FFFFFF
+ *   Texte atténué   : rgba(255,255,255,0.65)
+ *   Police          : Open Sans (chargée via frontmatter)
+ */
+
+/* ─── Progress bar ───────────────────────────────────────────────────────── */
+/* Change this value to use a different color for the bottom progress bar.    */
+:root {
+  --progress-bar-color: #0F9ED5; /* JFTL brand blue */
+}
+
+/* ─── v-click transition ─────────────────────────────────────────────────── */
+/* Smooth fade-up reveal for all v-click targets                              */
+.slidev-vclick-target {
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.slidev-vclick-hidden {
+  opacity: 0;
+  transform: translateY(8px);
+  pointer-events: none;
+}
+
+/* ─── Fond et couleur de base ────────────────────────────────────────────── */
+
+.slidev-layout {
+  background-color: #2D354B;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ─── Titres ─────────────────────────────────────────────────────────────── */
+
+.slidev-layout h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.9em;
+  line-height: 1.2;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid #0F9ED5;
+}
+
+.slidev-layout h2 {
+  color: #0F9ED5;
+  font-weight: 600;
+  font-size: 1.3em;
+  margin-bottom: 0.4em;
+}
+
+.slidev-layout h3 {
+  color: #0F9ED5;
+  font-weight: 600;
+  font-size: 1.1em;
+  margin-bottom: 0.3em;
+}
+
+/* ─── Listes ─────────────────────────────────────────────────────────────── */
+
+.slidev-layout ul li::marker,
+.slidev-layout ol li::marker {
+  color: #0F9ED5;
+}
+
+.slidev-layout li {
+  margin-bottom: 0.25em;
+}
+
+/* ─── Mise en évidence inline ────────────────────────────────────────────── */
+
+.slidev-layout strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.slidev-layout em {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* ─── Blocs de code ──────────────────────────────────────────────────────── */
+
+.slidev-layout pre {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+}
+
+.slidev-layout code:not(pre code) {
+  background: rgba(15, 158, 213, 0.18);
+  color: #0F9ED5;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.88em;
+}
+
+/* ─── Tableaux ───────────────────────────────────────────────────────────── */
+
+.slidev-layout table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9em;
+}
+
+.slidev-layout table th {
+  background-color: #156082;
+  color: #ffffff;
+  padding: 0.4em 0.75em;
+  text-align: left;
+  font-weight: 600;
+}
+
+.slidev-layout table td {
+  padding: 0.35em 0.75em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+}
+
+.slidev-layout table tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* ─── Citations / Blockquotes ────────────────────────────────────────────── */
+
+.slidev-layout blockquote {
+  border-left: 4px solid #0F9ED5;
+  padding: 0.3em 0.8em;
+  margin: 0.6em 0;
+  color: rgba(255, 255, 255, 0.75);
+  font-style: italic;
+  background: rgba(15, 158, 213, 0.08);
+  border-radius: 0 6px 6px 0;
+}
+
+.slidev-layout blockquote p {
+  margin: 0;
+}
+
+/* ─── Liens ──────────────────────────────────────────────────────────────── */
+
+.slidev-layout a {
+  color: #0F9ED5;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.slidev-layout a:hover {
+  color: #4fc5e8;
+}
+
+/* ─── Layout « center » ──────────────────────────────────────────────────── */
+
+.slidev-layout.center h1,
+.slidev-layout.center h2 {
+  border-bottom: none;
+  text-align: center;
+}
+
+/* ─── Numéro de page / footer ────────────────────────────────────────────── */
+
+.slidev-page-info {
+  color: rgba(255, 255, 255, 0.35) !important;
+}
+
+/* ─── Utilitaires thème ──────────────────────────────────────────────────── */
+
+.jftl-accent {
+  color: #0F9ED5;
+}
+
+.jftl-crimson {
+  color: #BB3949;
+}
+
+.jftl-primary {
+  color: #156082;
+}
