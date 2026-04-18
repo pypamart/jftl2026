@@ -62,4 +62,4 @@ The entry point is [slides.md](./slides.md), which imports each section from [sl
 
 ## License
 
-This project is for conference/demo purposes. See individual files for license details if needed.
+<a href="https://github.com/pypamart/jftl2026">JFTL 2026 – Pierre-Yves PAMART - An Undercover Developer Among Testers: How to Fail BDD, ATDD &amp; TDD — Especially in the Age of Spec-Driven Development</a> © 2026 by <a href="https://www.linkedin.com/in/pierre-yves-pamart">Pierre-Yves PAMART</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
