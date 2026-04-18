@@ -1,5 +1,5 @@
 
-# JFTL 2026 — Conference Talk Slide Deck**
+# JFTL 2026 — Conference Talk Slide Deck
 
 This repository contains the Slidev presentation for the JFTL 2026 talk by **Pierre-Yves PAMART**:
 
