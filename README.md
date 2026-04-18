@@ -1,14 +1,17 @@
 
-# Gherkin: Old vs New (v6+)
+# JFTL 2026 — Conference Talk Slide Deck**
 
-**JFTL 2026 — Conference Talk Slide Deck**
+This repository contains the Slidev presentation for the JFTL 2026 talk by **Pierre-Yves PAMART**:
 
-This repository contains the Slidev presentation for the JFTL 2026 talk:
-**"Gherkin: Old vs New (v6+)"**
+> *Un développeur infiltré chez les testeurs : comment faire échouer le BDD, l'ATDD & le TDD — surtout à l'ère du Spec-Driven Development*
 
 ## Overview
 
-This talk compares the old Gherkin syntax with the new Gherkin v6+ syntax, highlighting key changes and their impact on writing `.feature` files for tools like Cucumber, SpecFlow, Behave, and Reqnroll.
+This talk explores, through a satirical "saboteur's guide" framing, the most common ways BDD, ATDD and TDD are misunderstood and misapplied — especially in the age of AI-assisted, spec-driven development.
+
+The narrative is structured around **10 sabotage techniques**, from distorting the meaning of BDD to making AI agents fail by feeding them hollow specifications.
+
+See [slides-sections/README.md](./slides-sections/README.md) for the full slide architecture and technique numbering.
 
 ## Getting Started
 
@@ -45,14 +48,12 @@ pnpm export
 
 ## Slide Content
 
-Edit the main slides in [slides.md](./slides.md).
-
-Legacy or template slides are in [oldslides.md](./oldslides.md).
+The entry point is [slides.md](./slides.md), which imports each section from [slides-sections/](./slides-sections/).
 
 ## Deployment
 
-- **Netlify**: See `netlify.toml` for configuration
-- **Vercel**: See `vercel.json` for configuration
+- **Netlify**: See [netlify.toml](./netlify.toml) for configuration
+- **Vercel**: See [vercel.json](./vercel.json) for configuration
 
 ## Tech Stack
 - [Slidev](https://sli.dev/) (Vue 3, Markdown-based slides)
