@@ -385,7 +385,7 @@ layout: two-cols-compare
 
 ::right::
 
-## Rich Gherkin
+## Rich Gherkin using Gherkin V6+ syntax
 
 <div class="overflow-y-auto max-h-[55vh]">
 

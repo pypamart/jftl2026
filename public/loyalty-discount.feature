@@ -1,16 +1,19 @@
-@pricing @loyalty
+@REQ-1234 @bounded_context(pricing) @story(loyalty-42) 
 Feature: Loyalty discount on coffee orders
   In order to reward customer loyalty and increase retention
   As a returning customer with a loyalty card
   I want to receive a 10% discount on eligible orders once I have completed my 10th purchase
 
   """markdown
-  **Bounded Context:** Pricing
-  **Story:** LOYALTY-42 — Loyalty card discount rules
-  **Owner:** @product-cafe · @qa-team
-  **Last reviewed:** 2026-04-20 · Sprint #12
+  This feature explains the loyalty discount rules for customers who have completed
+  at least 10 previous orders. 
+  
+  The discount is applied at checkout and provides a 10% reduction on the total price 
+  of eligible items. The feature also covers edge cases such as reaching the threshold 
+  for the first time, interactions with promotions, and exclusions for certain item 
+  types like gift vouchers.
 
-  ### References
+  ## References
   - [Loyalty discount rules](docs/reference/pricing/loyalty-discount.md)
   - [Promotions stacking policy](docs/reference/pricing/promotions.md#stacking-policy)
   - [ADR-021 — Loyalty tiers](docs/adr/ADR-021-loyalty-tiers.md)
@@ -21,13 +24,10 @@ Feature: Loyalty discount on coffee orders
     Given the loyalty discount rate is configured at 10%
     And the loyalty eligibility threshold is 10 completed orders
 
+  @REQ-1234-R01 @implemented
   Rule: A customer with 10 or more completed orders receives a 10% discount
-    """markdown
-    Eligibility & discount calculation.
-    Ref: [loyalty-discount.md#eligibility](docs/reference/pricing/loyalty-discount.md#eligibility)
-    """
 
-    @happy @sprint-12
+    @happy
     Example: Loyal customer gets a discount on a standard order
       Given a customer "Alice" who has completed 10 previous orders
       When she orders a "Caffè Latte" priced at €4.50
@@ -35,7 +35,7 @@ Feature: Loyalty discount on coffee orders
       And the receipt shows "Loyalty discount (10%): -€0.45"
       And a "Loyal Customer" badge is displayed on her account
 
-    @happy @sprint-12
+    @happy
     Scenario Outline: Discount is consistent across coffee types
       Given a loyal customer with <orders> completed orders
       When they order a "<coffee>" priced at €<price>
@@ -70,14 +70,10 @@ Feature: Loyalty discount on coffee orders
       Then the total should be €3.00
       And no discount is applied
 
+  @REQ-1234-R02 @notImplemented
   Rule: Loyalty discount does not stack with promotions or apply to excluded items
-    """markdown
-    Exclusions: promotions, gift vouchers & special offers.
-    Refs: [loyalty-discount.md#exclusions](docs/reference/pricing/loyalty-discount.md#exclusions)
-    · [promotions.md#stacking-policy](docs/reference/pricing/promotions.md#stacking-policy)
-    """
 
-    @sad @sprint-12
+    @sad
     Example: Discount does not stack with an active promotional price
       Given a loyal customer "Eve" with 15 completed orders
       And a 20% promotional discount is active on "Seasonal Pumpkin Latte"
