@@ -144,55 +144,87 @@ Top-down view of a clean table covered in four types of colored index cards arra
 -->
 
 ---
+clicks: 9
+---
 
 # How to ruin an Example Mapping session
 
-<div class="mt-4">
+<div class="flex gap-6 mt-3 h-[80%]">
 
-<v-clicks>
+<!-- Left column: checklist -->
+<div class="flex flex-col flex-1 gap-2">
 
-- ☐ Forget important business rules
-- ☐ Cover only happy paths
-- ☐ Write bad examples — vague, unrealistic
-- ☐ Abandon business language entirely
-- ☐ Run the session **without domain experts**
-- ☐ Use AI alone **with no domain context**
-- ☐ Let the machine fill gaps with *plausible guesses*
-
-</v-clicks>
-
-</div>
+<ul class="space-y-[0.35em] text-[0.75em] list-none pl-0">
+  <li v-click>🎭 <strong>Destroy the Three Amigos</strong>
+    <ul class="ml-5 mt-1 space-y-[0.25em] text-[0.82em] text-white/65 list-disc pl-4">
+      <li>🏢 Without business experts (BA or domain expert) — only QA &amp; devs</li>
+      <li>📥 QA + BA only — requirements dumped straight to the backlog board, no devs</li>
+      <li>👨‍💻 Developers only — no QA, no domain expertise at all</li>
+    </ul>
+  </li>
+  <li v-click>🔮 Forget critical business rules</li>
+  <li v-click>😊 Cover happy paths only — ignore all edge cases</li>
+  <li v-click>💬 Write vague, unrealistic examples</li>
+  <li v-click>🗣️ Abandon business language — go full technical</li>
+  <li v-click>🤖 Use AI alone — with zero domain context</li>
+  <li v-click>💣 Let the machine fill gaps with <em>plausible guesses</em></li>
+  <li v-click>⚙️ Express scenarios as <strong>technical solutions</strong>, not business behaviours</li>
+</ul>
 
 <v-click>
-
-<div class="mt-6 px-4 py-3 rounded-lg bg-red-900/20 border border-red-500/20 text-sm">
+<div class="mt-3 px-3 py-2 rounded-lg bg-red-900/20 border border-red-500/20 text-xs">
   ⚠️ Plausible-but-wrong material is <strong>excellent fuel for failure</strong>.
 </div>
-
 </v-click>
+
+</div>
+
+<!-- Right column: image (fades in + slides up on first click) -->
+<div
+  class="w-[40%] flex flex-col items-center justify-center gap-2 transition-all duration-700 ease-in-out"
+  :style="{ opacity: $clicks >= 1 ? 1 : 0, transform: $clicks >= 1 ? 'translateY(0)' : 'translateY(14px)' }"
+>
+  <img
+    src="/bddbooks-bdd-final-example-mapping.png"
+    class="object-contain w-full rounded-lg"
+  />
+  <p class="text-[0.55rem] leading-snug text-white/40 italic text-center">
+    Rose, S. &amp; Nagy, G. (2020). <em>Discovery: Explore Behaviour Using Examples</em>. Leanpub. Figure 14 — The final example map.
+  </p>
+</div>
+
+</div>
 
 <!--
 ## 🇫🇷 Script (30–60 s)
-On peut oublier des règles importantes, couvrir uniquement les happy paths, écrire de mauvais exemples, ou abandonner complètement le langage métier. Et surtout, on peut lancer la session sans les bonnes personnes, ou avec l'IA seule sans contexte métier. Dans ce cas, le système va combler les trous avec des suppositions plausibles. Et du matériel plausible-mais-faux, c'est un excellent carburant pour l'échec.
+
+### Clic 1 — Détruire les Trois Amigos
+Le premier levier de sabotage, c'est de ne jamais réunir les bonnes personnes. Les Trois Amigos, ce sont : un représentant du métier, un QA, et un développeur. Supprimez n'importe lequel de ces trois piliers et la session s'effondre. Sans le métier, on spécifie dans le vide. Sans les devs, les stories atterrissent dans le backlog sans discussion. Sans les QA, personne ne pense aux cas limites.
+
+### Clics 2–7 — La checklist de sabotage
+On peut aussi oublier des règles importantes, couvrir uniquement les happy paths, écrire de mauvais exemples, ou abandonner complètement le langage métier. Et surtout, lancer la session avec l'IA seule sans contexte métier — dans ce cas, le système comble les trous avec des suppositions plausibles. Du matériel plausible-mais-faux, c'est un excellent carburant pour l'échec.
 
 - - -
 
 ## 🇬🇧 Script (30–60 s)
-If the team starts doing good work, the right target is Example Mapping. You can forget important rules, cover only happy paths, write bad examples, or abandon business language completely. And above all, you can run the session without the right people, or with AI alone and no domain context. In that case, the system will fill the gaps with plausible guesses. And plausible-but-wrong material is excellent fuel for failure.
+
+### Click 1 — Destroy the Three Amigos
+The first sabotage lever is to never bring the right people together. The Three Amigos are: a business representative, a QA, and a developer. Remove any one of those three pillars and the session collapses. No business expert — you're specifying in a vacuum. No devs — stories land in the backlog undiscussed. No QA — nobody thinks about edge cases.
+
+### Clicks 2–7 — The sabotage checklist
+You can also forget important rules, cover only happy paths, write bad examples, or abandon business language completely. And above all, run the session with AI alone and no domain context — the system will fill the gaps with plausible guesses. Plausible-but-wrong material is excellent fuel for failure.
 
 - - -
 
 ## 🎯 One-sentence message
-**A failed Example Mapping session creates hollow specifications and therefore fragile implementations.**
+**A failed Example Mapping session starts with the wrong people in the room — and ends with plausible-but-wrong specifications.**
 
 ## 🎭 Slide objective
-Provide a concrete, recognizable checklist of bad practices that the audience will have seen before.
+Elevate the checklist with a structural point (Three Amigos) before the tactical failures, with the final example map visible as the contrast artefact.
 
 ## 🖥️ What to put on screen
-- Forget rules / Cover only happy paths / Write bad examples / Abandon business language
-- Run without domain experts / Use AI alone with no context
-- Let the machine fill gaps with plausible guesses
-- ⚠️ Plausible-but-wrong material is excellent fuel for failure
+- Left: Three Amigos breakdown + 6 sabotage tactics + warning box
+- Right: Figure 14 — The final example map (fades in at first click)
 
 - - -
 
