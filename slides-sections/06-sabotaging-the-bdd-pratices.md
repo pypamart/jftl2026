@@ -34,6 +34,116 @@ Top-down view of colored index cards (yellow, blue, green, red) arranged on a da
 -->
 
 ---
+clicks: 2
+---
+
+# What is Example Mapping?
+
+<div class="relative h-[78%] mt-4">
+
+  <!-- Divider: reveals once thumbnails appear in col 1 -->
+  <div
+    class="absolute top-0 bottom-0 border-l border-white/10 transition-opacity duration-700"
+    style="left: 33%;"
+    :style="{ opacity: $clicks >= 1 ? 1 : 0 }"
+  />
+
+  <!-- bddbooks-bdd-what-is-bdd.png — starts full in col 2, glides to col 1 (centered alone at click 1, top half at click 2) -->
+  <img
+    src="/bddbooks-bdd-what-is-bdd.png"
+    class="absolute object-contain transition-all duration-700 ease-in-out"
+    :style="{
+      left:   $clicks >= 1 ? '0%'  : '33%',
+      top:    $clicks >= 2 ? '3%'  : ($clicks >= 1 ? '28%' : '13%'),
+      width:  $clicks >= 1 ? '31%' : '67%',
+      height: $clicks >= 1 ? '44%' : '74%',
+    }"
+  />
+
+  <!-- bdd-discovery-process.png — fades in at col 2 on click 1, glides to col 1 bottom at click 2 -->
+  <img
+    src="/bdd-discovery-process.png"
+    class="absolute object-contain transition-all duration-700 ease-in-out"
+    :style="{
+      left:    $clicks >= 2 ? '0%'  : '33%',
+      top:     $clicks >= 2 ? '53%' : '13%',
+      width:   $clicks >= 2 ? '31%' : '67%',
+      height:  $clicks >= 2 ? '44%' : '74%',
+      opacity: $clicks >= 1 ? 1 : 0,
+    }"
+  />
+
+  <!-- bddbooks-bdd-final-example-mapping.png — fades in at col 2 on click 2 -->
+  <img
+    src="/bddbooks-bdd-final-example-mapping.png"
+    class="absolute object-contain transition-all duration-700 ease-in-out"
+    style="left: 33%; top: 13%; width: 67%; height: 74%;"
+    :style="{ opacity: $clicks >= 2 ? 1 : 0 }"
+  />
+
+  <!-- Citation: Fig. 5 — visible at click 0 only (image 1 is large) -->
+  <p
+    class="absolute transition-opacity duration-500 text-[0.58rem] leading-snug text-white/40 italic"
+    style="left: 35%; bottom: 0; width: 63%;"
+    :style="{ opacity: $clicks < 1 ? 1 : 0 }"
+  >
+    Rose, S. &amp; Nagy, G. (2020). <em>Discovery: Explore Behaviour Using Examples</em>. Leanpub. Fig. 5 — BDD practices.
+  </p>
+
+  <!-- Citation: Fig. 14 — visible from click 2 -->
+  <p
+    class="absolute transition-opacity duration-500 text-[0.58rem] leading-snug text-white/40 italic"
+    style="left: 35%; bottom: 0; width: 63%;"
+    :style="{ opacity: $clicks >= 2 ? 1 : 0 }"
+  >
+    Rose, S. &amp; Nagy, G. (2020). <em>Discovery: Explore Behaviour Using Examples</em>. Leanpub. Figure 14 — The final example map.
+  </p>
+
+</div>
+
+<!--
+## 🇫🇷 Script (30–60 s)
+
+### Affichage initial — les trois pratiques BDD
+Le BDD se décompose en trois pratiques : Discovery, Formulation, Automation. L'Example Mapping est l'un des ateliers centraux de la phase Discovery.
+
+### Clic 1 — Domain Storytelling / Example Mapping en action
+L'Example Mapping, c'est un atelier structuré inventé par Matt Wynne. On prend une user story et on la décompose collectivement en règles métier illustrées par des exemples. Chaque carte couleur a un rôle précis : jaune pour la story, bleu pour les règles, vert pour les exemples, rouge pour les questions ouvertes.
+
+### Clic 2 — La carte d'Example Mapping finale
+Voilà ce à quoi ressemble une carte d'Example Mapping complète et bien conduite. C'est un artefact visuel qui capture la compréhension partagée de toute l'équipe avant d'écrire une seule ligne de code ou de Gherkin.
+
+- - -
+
+## 🇬🇧 Script (30–60 s)
+
+### Initial display — the three BDD practices
+BDD breaks down into three practices: Discovery, Formulation, Automation. Example Mapping is one of the core workshops of the Discovery phase.
+
+### Click 1 — Domain Storytelling / Example Mapping in action
+Example Mapping is a structured workshop invented by Matt Wynne. You take a user story and collaboratively break it down into business rules illustrated by examples. Each card colour has a precise role: yellow for the story, blue for rules, green for examples, red for open questions.
+
+### Click 2 — The final example map
+This is what a complete, well-run Example Mapping card looks like. It is a visual artefact that captures the shared understanding of the whole team before a single line of code or Gherkin is written.
+
+- - -
+
+## 🎯 One-sentence message
+**Example Mapping is the Discovery workshop where the team builds shared understanding through structured business rules and concrete examples.**
+
+## 🎭 Slide objective
+Ground the audience in what Example Mapping actually is before showing how to sabotage it.
+
+## 🖥️ What to put on screen
+- BDD practices diagram (bddbooks-bdd-what-is-bdd.png) → Example Mapping discovery process (bdd-discovery-process.png) → Final example map (bddbooks-bdd-final-example-mapping.png)
+
+- - -
+
+## 🎨 AI Image Prompt
+Top-down view of a clean table covered in four types of colored index cards arranged in clear columns — yellow, blue, green, red — each stack precisely aligned, single warm overhead spotlight creating long soft shadows. Style: workshop still life, overhead photography, no text, 16:9.
+-->
+
+---
 
 # How to ruin an Example Mapping session
 
