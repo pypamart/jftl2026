@@ -242,24 +242,110 @@ clicks: 2
 </div>
 
 <!--
-## 🇫🇷 Script (30–60 s)
-En réalité, le BDD commence bien avant les tests. On part d'un besoin, puis on réunit les bonnes personnes : développeurs, testeurs, et personnes qui connaissent le métier. On cherche les règles métier et on les illustre avec des exemples concrets, souvent via l'Example Mapping. Ce n'est qu'après qu'on formalise le résultat, et seulement là qu'on automatise. Le problème, c'est que beaucoup d'équipes n'ont retenu que la dernière étape.
+## 🇫🇷 Script
+
+### Affichage initial — les couvertures de livres apparaissent
+Je vais vous expliquer ce qu'est réellement le BDD, en m'appuyant sur deux livres de référence que je vous invite tous à lire.
+En général, je dis que je rembourse si vous n'êtes pas satisfaits. Je n'ai encore jamais remboursé.
+Si l'anglais est problématique, je vous recommande également le livre **Software Craft** aux éditions DUNOD.
+Vous retrouverez la bibliographie complète dans les liens en fin de présentation.
+
+### Clic 1 — Schéma des trois pratiques BDD
+Gaspar Nagy et Seb Rose décomposent le cycle BDD en **trois pratiques**.
+Pour rappel, une pratique, c'est des méthodes accompagnées d'outils associés.
+
+**1. Discovery** — comment avoir les bonnes discussions, structurées avec le bon niveau de collaboration,
+de manière à partager une compréhension commune et surtout mettre en exergue les **règles métier**,
+illustrées par des **exemples** — et attention, quand on parle d'exemples, ça inclut tous les types :
+les cas passants, mais aussi les scénarios quand ça se passe mal.
+
+**2. Formulation** — rédiger tous ces scénarios, les mettre sur papier.
+Aujourd'hui, le format roi c'est le Gherkin — mais ça pourrait être autre chose.
+
+**3. Automation** — comment automatiser des tests qui vont vérifier que le système se comporte
+exactement tel que décrit dans la formulation.
+
+Vous avez compris : Discovery et Formulation sont dans l'**espace des besoins**,
+Automation est dans l'**espace des solutions**.
+
+### Clic 2 — Schéma du process complet
+Si on va un peu plus loin, voilà le process que Gaspar Nagy et Seb Rose ont formalisé.
+
+**1.** On prend une **story**.
+**2.** On organise le **Requirement Workshop** — souvent réalisé avec un atelier d'Example Mapping,
+mais on peut utiliser autre chose — pour mettre en exergue les règles métier au travers d'exemples.
+**3.** Les développeurs réalisent la **Formulation** en Gherkin.
+**4.** La **Review** — étape vraiment importante :
+ce sont les gens du métier qui vérifient que les développeurs ont bien compris le besoin.
+Une fois cette étape franchie, on peut dormir sur ses deux oreilles.
+Parce qu'il ne faut pas oublier : ce qui tourne en production, c'est ce que le développeur a **compris** du besoin.
+Tout l'art du soft engineering, c'est comment on transfère l'information d'un cerveau A vers un cerveau B — et comment elle est modélisée pour la suite.
+**5.** On entre ensuite dans la phase d'**Automation** — et là arrivent les doubles boucles :
+on voit apparaître l'**ATDD** (Acceptance Test-Driven Development).
+**6.** L'**implémentation** — et là vous repérerez ce qu'on appellera le **TDD cycle**.
+
+Et vous verrez, il y a différentes boucles de feedback imbriquées.
+On reviendra sur tout ça en détail, parce que l'objectif va être de voir
+comment on peut venir **mettre en échec** ce process.
 
 - - -
 
-## 🇬🇧 Script (30–60 s)
-In reality, BDD starts well before testing. You begin with a requirement, then bring together the right people: developers, testers, and people who actually know the business. You look for business rules and illustrate them with concrete examples, often using Example Mapping. Only after that do you formalize the result, and only then do you automate it. The problem is that many teams have remembered only the last step.
+## 🇬🇧 Script
+
+### Initial display — book covers appear
+I'm going to explain what BDD really is, drawing on two reference books I strongly encourage you all to read.
+I usually say I'll give a refund if you're not satisfied — and I have never once refunded anyone.
+If English is a challenge, I also recommend the **Softwarecraft** book published by the folks at Arla.
+You'll find the full bibliography in the links at the end of the presentation.
+
+### Click 1 — The three BDD practices diagram
+Gaspar Nagy and Seb Rose break the BDD cycle down into **three practices**.
+A practice, remember, means methods combined with associated tools.
+
+**1. Discovery** — how to have the right conversations, structured with the right level of collaboration,
+so that you can build a shared understanding and, most importantly, surface the **business rules**
+illustrated through **examples** — and when we say examples, that means all types:
+the happy paths, but also the scenarios where things go wrong.
+
+**2. Formulation** — writing down all those scenarios, putting them on paper.
+Today the reigning format is Gherkin — though it could be something else.
+And this is done by the developers.
+
+**3. Automation** — how to automate the tests that verify the system actually behaves
+exactly as described in the formulation.
+
+Discovery and Formulation live in the **problem space**; Automation lives in the **solution space**.
+
+### Click 2 — Full process diagram
+Going a step further, here is the process Gaspar Nagy and Seb Rose have formalised.
+
+**1.** Pick a **story**.
+**2.** Run the **Requirement Workshop** — most often Example Mapping, but other techniques work too —
+to surface business rules through concrete examples.
+**3.** Developers perform the **Formulation** in Gherkin.
+**4.** The **Review** — a critically important step:
+the business stakeholders verify that the developers have correctly understood the requirement.
+Once this step is done, you can sleep easy.
+Because never forget: what runs in production is what the developer **understood** from the requirement.
+The whole art of software engineering is about how information is transferred from brain A to brain B — and how it's modelled for what comes next.
+**5.** Then comes the **Automation** phase — and this is where the double loops appear:
+you'll see **ATDD** (Acceptance Test-Driven Development) come into play.
+**6.** The **implementation** — and here you'll spot what we'll call the **TDD cycle**.
+
+You'll notice there are several nested feedback loops.
+We'll come back to all of this in more detail, because the goal is going to be to see
+exactly how we can **sabotage** this process — step by step.
 
 - - -
 
 ## 🎯 One-sentence message
-**BDD is a complete chain: discuss, discover, formulate, then automate.**
+**BDD is a complete chain: discuss, discover, formulate, then automate — and most teams have only ever seen the last step.**
 
 ## 🎭 Slide objective
-Restore BDD's actual structure — and make the audience see what they've been missing.
+Restore BDD's actual structure using Gaspar Nagy & Seb Rose's framework — and make the audience see what they've been missing.
 
 ## 🖥️ What to put on screen
-- Requirement → Discovery (Dev+Test+Business) → Business Rules → Examples → Example Mapping → Formalization → ⚙️ Automation (small, at the end)
+- Book covers (bddbooks.png) → 3 practices diagram (bddbooks-bdd-what-is-bdd.png) → Full process diagram (bddbooks-bdd-process.png)
 
 - - -
 
