@@ -26,11 +26,6 @@ Target the discovery workshop directly — the session where real quality is bui
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #6
 - "Sabotage Example Mapping"
-
-- - -
-
-## 🎨 AI Image Prompt
-Top-down view of colored index cards (yellow, blue, green, red) arranged on a dark surface in an Example Mapping pattern — but one corner of the arrangement is deliberately scattered into disorder. Single warm overhead light source, dramatic cast shadows. Style: workshop photography, clean overhead composition, no text, 16:9.
 -->
 
 ---
@@ -136,11 +131,6 @@ Ground the audience in what Example Mapping actually is before showing how to sa
 
 ## 🖥️ What to put on screen
 - BDD practices diagram (bddbooks-bdd-what-is-bdd.png) → Example Mapping discovery process (bdd-discovery-process.png) → Final example map (bddbooks-bdd-final-example-mapping.png)
-
-- - -
-
-## 🎨 AI Image Prompt
-Top-down view of a clean table covered in four types of colored index cards arranged in clear columns — yellow, blue, green, red — each stack precisely aligned, single warm overhead spotlight creating long soft shadows. Style: workshop still life, overhead photography, no text, 16:9.
 -->
 
 ---
@@ -225,11 +215,6 @@ Elevate the checklist with a structural point (Three Amigos) before the tactical
 ## 🖥️ What to put on screen
 - Left: Three Amigos breakdown + 6 sabotage tactics + warning box
 - Right: Figure 14 — The final example map (fades in at first click)
-
-- - -
-
-## 🎨 AI Image Prompt
-A pristine white checklist paper artifact with every checkbox marked by a bold crimson (#BB3949) X — the paper slightly crumpled at one corner, sitting on a deep dark matte surface. Strong single directional light from the right, long shadow. Style: editorial still life, dramatic contrast, no text, 16:9.
 -->
 
 ---
@@ -260,11 +245,6 @@ Show that the problem is less the tool than its impoverished use — and set up 
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #7
 - "Write anemic Gherkin"
-
-- - -
-
-## 🎨 AI Image Prompt
-Two identical transparent vessels on a dark surface — one is a beautiful but completely empty crystal shell, the other is identical in form but filled with luminous blue (#0F9ED5) content that glows from within. Deep dark background (#02111B), bilateral symmetry, dramatic backlight. Style: conceptual product photography, no text, 16:9.
 -->
 
 ---
@@ -358,11 +338,6 @@ Transition from Discovery (Example Mapping) to Formulation, setting up the contr
 
 ## 🖥️ What to put on screen
 - BDD practices diagram → Formulation process diagram
-
-- - -
-
-## 🎨 AI Image Prompt
-A blank index card being carefully written on with a precise ink pen — the card sits on a dark surface, other blank cards visible in the background. Single overhead spotlight, clean shadows. Style: editorial still life, no text, 16:9.
 -->
 
 ---
@@ -415,9 +390,4 @@ Make the qualitative difference visceral with a real before/after code example t
 ## 🖥️ What to put on screen
 - Left (anemic): solution-oriented Gherkin with no context, no tags, no comments
 - Right (rich): feature with tags, comments, business language, reference, meaningful scenario
-
-- - -
-
-## 🎨 AI Image Prompt
-Split composition — left side shows a thin, fragile wireframe structure with empty voids visible through it (anemic), right side shows the same form but richly filled with glowing interconnected nodes and data streams. Deep navy (#2D354B) background, left desaturated, right vibrant blue (#0F9ED5). Style: abstract architectural comparison, no text, 16:9.
 -->

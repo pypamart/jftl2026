@@ -43,11 +43,6 @@ Set the tone immediately, establish credibility, and introduce the central tensi
 - Conference title
 - Name, role, company
 - Visual hook around AI or "vertigo"
-
-- - -
-
-## 🎨 AI Image Prompt
-Cinematic wide shot of a lone figure in a dark trench coat stepping through a threshold between two contrasting worlds — one side filled with glowing test matrices and quality shields, the other with cascading lines of source code. Deep navy (#2D354B) atmosphere, single dramatic backlight in blue (#0F9ED5), volumetric fog, no text. Style: premium keynote hero image, 16:9.
 -->
 
 ---

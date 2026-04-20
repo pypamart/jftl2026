@@ -26,11 +26,6 @@ Pivot from the BDD problem space to the bridge toward the solution space — the
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #7
 - "Skip design entirely"
-
-- - -
-
-## 🎨 AI Image Prompt
-A magnificent glass building with a gaping void where a critical structural column should be — light spills through the gap, making the absence beautiful but dangerous. Deep dark atmosphere (#02111B), warm interior glow through the void, architectural precision around it. Style: conceptual architecture render, dramatic, no text, 16:9.
 -->
 
 ---
@@ -67,11 +62,6 @@ Establish Implement vs. Plan + Construct as two mutually exclusive paradigms, an
 
 ## 🖥️ What to put on screen
 - Image: implement_vs_construct.png
-
-- - -
-
-## 🎨 AI Image Prompt
-Two parallel workshop stations side by side — the left has a direct hand writing code from a single sticky note; the right has architectural blueprints, models, and structured components being assembled with precision. Deep dark background (#02111B), warm focused lighting on each station. Style: conceptual craft photography, no text, 16:9.
 -->
 
 ---
@@ -134,11 +124,6 @@ Use the SDLC diagram as the master reference to explain all design layers, the C
 
 ## 🖥️ What to put on screen
 - Image: sdlc-process.png (full height, horizontally scrollable)
-
-- - -
-
-## 🎨 AI Image Prompt
-A wide panoramic blueprint of a complete software development lifecycle — from requirements on the left to deployed code on the right, with a central section showing layered design phases in luminous detail. Deep dark background (#02111B), each phase a different ambient color. Style: technical illustration, panoramic, no text, 16:9.
 -->
 
 ---
@@ -151,12 +136,12 @@ Flatten BDD / ATDD / TDD
 
 <!--
 ## 🇫🇷 Script (30–60 s)
-Maintenant qu'on a vu que le design est structuré en couches — comme le modèle C4 — et que l'ATDD et le TDD sont des activités de conception au niveau Composant, regardons la confusion la plus séduisante : présenter BDD, ATDD et TDD comme de simples variantes d'une seule idée — commencer par un test. C'est exactement ce qui arrive quand on saute le design.
+Maintenant qu'on a vu que le design est structuré en couches — comme le modèle C4 — et que l'ATDD et le TDD sont des activités de conception au niveau Composant et Code, regardons la confusion la plus séduisante : présenter BDD, ATDD et TDD comme de simples variantes d'une seule idée — commencer par un test. C'est exactement ce qui arrive quand on saute le design.
 
 - - -
 
 ## 🇬🇧 Script (30–60 s)
-Now that we have seen that design is layered — like the C4 model — and that ATDD and TDD are design activities at the Component level, let us look at the most seductive confusion: presenting BDD, ATDD, and TDD as just variants of one single idea — start with a test. This is exactly what happens when you skip design.
+Now that we have seen that design is layered — like the C4 model — and that ATDD and TDD are design activities at the Component and Code levels, let us look at the most seductive confusion: presenting BDD, ATDD, and TDD as just variants of one single idea — start with a test. This is exactly what happens when you skip design.
 
 - - -
 
@@ -169,11 +154,6 @@ Introduce the most modern and seductive confusion — flattening three distinct 
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #8
 - "Flatten BDD / ATDD / TDD"
-
-- - -
-
-## 🎨 AI Image Prompt
-Three distinct dimensional geological layers being compressed into a single flat plane by invisible force — rich textures and colors being crushed to uniformity. Deep dark background (#02111B), each layer a different shade (blue, green, teal), dramatic pressure visualization from above. Style: abstract geological art, cinematic, no text, 16:9.
 -->
 
 ---
@@ -223,105 +203,8 @@ Make the flattening visible as a deliberate destructive act, now connected to th
 - BDD · ATDD · TDD / ▼ flatten everything ▼
 - "Just start with a test, right?"
 - Consequence: discovery, formulation, architecture, trade-offs, and every C4 design layer disappear
-
-- - -
-
-## 🎨 AI Image Prompt
-A massive reducing funnel seen from above — a rich complex colorful landscape enters the wide top and a single thin monochrome line exits at the narrow bottom. Lost complexity visible as fading luminous particles dissolving into the void. Deep navy (#2D354B), subtle warm accents on the vanishing detail. Style: data visualization art, minimal, no text, 16:9.
 -->
 
----
-
-# The double loop
-
-<div class="flex items-center justify-center mt-8">
-<div class="relative" style="width: 700px; height: 340px;">
-
-<!-- Outer loop — click 1 -->
-<div
-  v-click="1"
-  class="absolute inset-0 rounded-2xl border-2 border-blue-500/40 bg-blue-900/10"
->
-  <div class="absolute top-3 left-4 text-sm font-bold text-blue-400">
-    Outer Loop — Acceptance (BDD / ATDD)
-  </div>
-  <div class="absolute bottom-3 left-4 text-xs text-white/40">
-    What should the system do?
-  </div>
-  <div class="absolute bottom-3 right-4 text-xs text-white/40">
-    Validate expected behavior
-  </div>
-</div>
-
-<!-- Inner loop — click 2 -->
-<div
-  v-click="2"
-  class="absolute rounded-xl border-2 border-green-500/40 bg-green-900/10"
-  style="top: 60px; left: 120px; right: 120px; bottom: 50px;"
->
-  <div class="absolute top-3 left-4 text-sm font-bold text-green-400">
-    Inner Loop — TDD
-  </div>
-  <div class="flex items-center justify-center h-full gap-6 pt-6">
-    <div class="text-center">
-      <div class="text-2xl">🔴</div>
-      <div class="text-xs text-white/60 mt-1">Red</div>
-    </div>
-    <div class="text-white/30">→</div>
-    <div class="text-center">
-      <div class="text-2xl">🟢</div>
-      <div class="text-xs text-white/60 mt-1">Green</div>
-    </div>
-    <div class="text-white/30">→</div>
-    <div class="text-center">
-      <div class="text-2xl">🔵</div>
-      <div class="text-xs text-white/60 mt-1">Refactor</div>
-    </div>
-  </div>
-  <div class="absolute bottom-2 left-4 text-xs text-white/40">
-    Build the solution cleanly, one step at a time
-  </div>
-</div>
-
-<!-- Design annotation — click 3 -->
-<div
-  v-click="3"
-  class="absolute text-xs text-yellow-400/70 font-medium"
-  style="bottom: 8px; left: 50%; transform: translateX(-50%);"
->
-  ← Both loops are design activities (C4 Level 3 — Component) →
-</div>
-
-</div>
-</div>
-
-<!--
-## 🇫🇷 Script (30–60 s)
-Le modèle qui aide vraiment ici, c'est la double boucle. Une boucle externe clarifie ce que le système devrait faire — c'est l'écriture ATDD, une activité de design de bas niveau. Une boucle interne construit la solution proprement, un petit pas à la fois, en utilisant TDD — encore du design de bas niveau. Ce ne sont pas des activités de « test first » : c'est de la conception guidée par les tests.
-
-- - -
-
-## 🇬🇧 Script (30–60 s)
-The model that really helps here is the double loop. An outer loop clarifies what the system should do — that is ATDD writing, a low level design activity. An inner loop builds the solution cleanly, one small step at a time, using TDD — again, low level design. These are not "test first" activities: they are test-guided design.
-
-- - -
-
-## 🎯 One-sentence message
-**Both loops — ATDD and TDD — are low level design activities, not just 'starting with a test.'**
-
-## 🎭 Slide objective
-Give the audience a simple, memorable mental model that corrects the flattening — now explicitly tied to the C4-aligned design layers.
-
-## 🖥️ What to put on screen
-- Two concentric loops: Outer = Acceptance/BDD/ATDD (what should the system do?)
-- Inner = TDD (Red → Green → Refactor)
-- Both loops are design activities (Plan Low Level Design)
-
-- - -
-
-## 🎨 AI Image Prompt
-Two concentric glowing orbital rings floating in deep space — the outer ring is large and blue (#0F9ED5) representing acceptance, the inner ring is smaller and green representing TDD. Smooth motion blur trails suggesting continuous cyclic movement. Deep black background, clean luminous paths. Style: orbital space visualization, no text, 16:9.
--->
 
 ---
 layout: technique-card
@@ -351,11 +234,6 @@ Deconstruct the most common caricature of TDD before revealing its genuine richn
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #9
 - "Sell fake TDD"
-
-- - -
-
-## 🎨 AI Image Prompt
-A beautifully staged magician's table — a silk top hat and a polished wand resting on dark velvet, suggesting elegant deception. Deep dark stage background (#02111B), single dramatic warm spotlight from above, faint crimson (#BB3949) curtain edge. Style: theatrical still life, minimal, no text, 16:9.
 -->
 
 ---
@@ -416,11 +294,6 @@ Contrast fake TDD (choreography) with real TDD (design practice) so the audience
 ## 🖥️ What to put on screen
 - Left: Fake TDD (one red, one green, one refactor, done)
 - Right: Real TDD (objective → decompose → small steps → update plan → emergent design → refactor code AND tests)
-
-- - -
-
-## 🎨 AI Image Prompt
-Left: a simple clock with three crude gears — mechanical and basic. Right: a complex Swiss watch mechanism with dozens of intricate interlocking precision parts. Both on a deep dark velvet surface, warm metallic tones, dramatic macro side lighting revealing depth and craftsmanship. Style: mechanical still life comparison, no text, 16:9.
 -->
 
 ---

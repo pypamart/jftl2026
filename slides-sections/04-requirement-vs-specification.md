@@ -26,11 +26,6 @@ Introduce the second structural confusion — one that directly feeds the BDD sa
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #2
 - "Confuse Requirement & Specification"
-
-- - -
-
-## 🎨 AI Image Prompt
-Two documents side by side — a rough hand-drawn sketch on textured paper and a precise technical engineering drawing. A subtle glowing void between them emphasizes the gap. Deep navy (#2D354B) background, warm sepia on the sketch, cool blue (#0F9ED5) on the drawing. Style: conceptual still life, dramatic side lighting, no text, 16:9.
 -->
 
 ---
@@ -67,11 +62,6 @@ Expose the methodological gap between a story and a true specification — and s
 - Story = intention
 - Specification = exploitable detail
 - Formulation work required
-
-- - -
-
-## 🎨 AI Image Prompt
-A single bridge half-built, suspended in mid-air between two elevated stone platforms — the missing middle segment is dramatically lit with a warm golden glow. Deep dark background (#02111B), blue (#0F9ED5) structural elements, vast empty space below. Style: architectural visualization, dramatic cinematic lighting, no text, 16:9.
 -->
 
 ---

@@ -26,11 +26,6 @@ Open the BDD sabotage sequence with a comic beat that conceals a serious point.
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #3
 - "Don't know what BDD is"
-
-- - -
-
-## 🎨 AI Image Prompt
-A large luminous question mark casting an oversized dramatic shadow on a textured wall. Crimson (#BB3949) ambient side light, deep navy (#2D354B) shadow. Minimal, theatrical, single focal point, vast negative space. Style: dramatic stage photography, no text, 16:9.
 -->
 
 ---
@@ -66,11 +61,6 @@ Create an early comic break that reveals a real and widespread problem.
 - "BDD? You mean… Base De Données?"
 - Real misunderstanding of the acronym
 - The joke reveals a real issue
-
-- - -
-
-## 🎨 AI Image Prompt
-A fork in an underground corridor — one path leads toward warm collaborative light (people silhouettes), the other toward cold blue server racks receding into darkness. Atmospheric fog, single overhead spotlight at the intersection. Style: cinematic narrative illustration, no text, 16:9.
 -->
 
 ---
@@ -101,11 +91,6 @@ Escalate the BDD sabotage — from not knowing the acronym to actively misdescri
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #4
 - "Reduce BDD to testing"
-
-- - -
-
-## 🎨 AI Image Prompt
-A vast iceberg in a dark ocean — only a tiny crystalline tip visible above the waterline, the massive hidden body below rendered in luminous blue (#0F9ED5) translucency. Deep ocean gradient, clean horizontal waterline division, dramatic scale contrast. Style: data visualization metaphor, minimal, no text, 16:9.
 -->
 
 ---
@@ -166,11 +151,6 @@ Visually deconstruct the common tooling-only view of BDD, then land the correcti
 ## 🖥️ What to put on screen
 - Cucumber / Gherkin syntax / Step definitions / CI automation
 - ❌ "This is not BDD. This is the last step of BDD."
-
-- - -
-
-## 🎨 AI Image Prompt
-A precarious tower of glowing technical tool icons stacking higher and higher, but the base dissolves into particles — no foundation. Deep dark background (#02111B), green glow on each tool block, crimson (#BB3949) particles falling from the absent base. Style: conceptual engineering art, vertical composition, no text, 16:9.
 -->
 
 ---
@@ -346,11 +326,6 @@ Restore BDD's actual structure using Gaspar Nagy & Seb Rose's framework — and 
 
 ## 🖥️ What to put on screen
 - Book covers (bddbooks.png) → 3 practices diagram (bddbooks-bdd-what-is-bdd.png) → Full process diagram (bddbooks-bdd-process.png)
-
-- - -
-
-## 🎨 AI Image Prompt
-A flowing river seen from above, starting wide and wild with many tributaries (raw requirements) and progressively channeling through landscape formations into a clean precise canal. Bird's-eye perspective, deep natural blues and greens, ultra-clean landscape composition. Style: aerial metaphorical landscape, no text, 16:9.
 -->
 
 ---
@@ -378,9 +353,4 @@ Provide a comedic breathing moment mid-talk, show progress, and build anticipati
 
 ## 🖥️ What to put on screen
 - Sabotage progress bar at 5/11 — Techniques #0 to #4 checked
-
-- - -
-
-## 🎨 AI Image Prompt
-Five illuminated crimson (#BB3949) markers in a row of eleven floating in darkness, casting long dramatic shadows. The remaining six are dim translucent grey. Deep dark background (#02111B), clean horizontal arrangement, generous negative space. Style: premium scoreboard visualization, no text, 16:9.
 -->

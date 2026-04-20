@@ -26,11 +26,6 @@ Introduce the most modern and seductive confusion — flattening three distinct 
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #8
 - "Flatten BDD / ATDD / TDD"
-
-- - -
-
-## 🎨 AI Image Prompt
-Three distinct dimensional geological layers being compressed into a single flat plane by invisible force — rich textures and colors being crushed to uniformity. Deep dark background (#02111B), each layer a different shade (blue, green, teal), dramatic pressure visualization from above. Style: abstract geological art, cinematic, no text, 16:9.
 -->
 
 ---
@@ -80,11 +75,6 @@ Make the flattening visible as a deliberate destructive act, not just a minor si
 - BDD · ATDD · TDD / ▼ flatten everything ▼
 - "Just start with a test, right?"
 - Consequence: discovery, formulation, business rules, trade-offs, and design disappear
-
-- - -
-
-## 🎨 AI Image Prompt
-A massive reducing funnel seen from above — a rich complex colorful landscape enters the wide top and a single thin monochrome line exits at the narrow bottom. Lost complexity visible as fading luminous particles dissolving into the void. Deep navy (#2D354B), subtle warm accents on the vanishing detail. Style: data visualization art, minimal, no text, 16:9.
 -->
 
 ---
@@ -173,11 +163,6 @@ Give the audience a simple, memorable mental model that corrects the flattening 
 - Two concentric loops: Outer = Acceptance/BDD/ATDD (what should the system do?)
 - Inner = TDD (Red → Green → Refactor)
 - Design flows through both
-
-- - -
-
-## 🎨 AI Image Prompt
-Two concentric glowing orbital rings floating in deep space — the outer ring is large and blue (#0F9ED5) representing acceptance, the inner ring is smaller and green representing TDD. Smooth motion blur trails suggesting continuous cyclic movement. Deep black background, clean luminous paths. Style: orbital space visualization, no text, 16:9.
 -->
 
 ---
@@ -208,11 +193,6 @@ Deconstruct the most common caricature of TDD before revealing its genuine richn
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #9
 - "Sell fake TDD"
-
-- - -
-
-## 🎨 AI Image Prompt
-A beautifully staged magician's table — a silk top hat and a polished wand resting on dark velvet, suggesting elegant deception. Deep dark stage background (#02111B), single dramatic warm spotlight from above, faint crimson (#BB3949) curtain edge. Style: theatrical still life, minimal, no text, 16:9.
 -->
 
 ---
@@ -273,11 +253,6 @@ Contrast fake TDD (choreography) with real TDD (thinking practice) so the audien
 ## 🖥️ What to put on screen
 - Left: Fake TDD (one red, one green, one refactor, done)
 - Right: Real TDD (objective → decompose → small steps → update plan → emergent design → refactor code AND tests)
-
-- - -
-
-## 🎨 AI Image Prompt
-Left: a simple clock with three crude gears — mechanical and basic. Right: a complex Swiss watch mechanism with dozens of intricate interlocking precision parts. Both on a deep dark velvet surface, warm metallic tones, dramatic macro side lighting revealing depth and craftsmanship. Style: mechanical still life comparison, no text, 16:9.
 -->
 
 ---
@@ -305,9 +280,4 @@ Create a dramatic pause that builds maximum anticipation for the final technique
 
 ## 🖥️ What to put on screen
 - Scoreboard at 10/11 — one technique remaining
-
-- - -
-
-## 🎨 AI Image Prompt
-Ten illuminated crimson (#BB3949) markers in a row of eleven — the final eleventh marker pulses with a faint anticipatory blue (#0F9ED5) glow, still unlit. Deep dark background (#02111B), dramatic horizontal composition, long shadows cast behind each lit marker. Style: premium scoreboard visualization, tension and anticipation, no text, 16:9.
 -->

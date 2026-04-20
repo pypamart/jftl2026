@@ -27,11 +27,6 @@ Introduce the core sabotage mechanic — the meta-technique that feeds all the o
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #0
 - "Distort the meaning"
-
-- - -
-
-## 🎨 AI Image Prompt
-A single symbol being subtly warped as if seen through a glass prism that bends reality — the distortion is elegant, not chaotic. Deep dark background (#02111B), crimson (#BB3949) light refracting through the prism, vast negative space. Style: conceptual art, cinematic single focal point, no text, 16:9.
 -->
 
 ---
@@ -80,9 +75,4 @@ Unpack the mechanic of meaning distortion as the root cause of methodological fa
 - Goal: create chaos
 - Zone: requirements → validation
 - Foundation: misunderstanding
-
-- - -
-
-## 🎨 AI Image Prompt
-A perfectly ordered grid of geometric white shapes where the center begins dissolving into controlled entropy — crimson (#BB3949) particles emerging from the dissolution. Navy (#2D354B) background, crisp edges surrounding the chaos zone, macro perspective. Style: editorial data visualization, ultra-minimal, no text, 16:9.
 -->

@@ -26,38 +26,43 @@ Complete the sabotage arc by explicitly connecting all previous human mistakes t
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #10
 - "Feed garbage to agents"
-
-- - -
-
-## 🎨 AI Image Prompt
-A sleek robotic hand reaching out to receive crumpled, torn paper and tangled wires being placed into it — precision meeting chaos. Deep dark background (#02111B), the robotic hand is chrome and pristine, the input material is visibly damaged and messy. Single strong side light, dramatic contrast. Style: conceptual tech art, no text, 16:9.
 -->
 
 ---
 
 # How agents actually fail
 
-<div class="mt-6 flex items-center justify-center gap-4">
+<div class="mt-4 flex items-center justify-center gap-4">
 
-<div class="flex flex-col gap-3 text-sm">
+<div class="grid grid-cols-2 gap-2 text-sm">
   <v-click>
-  <div class="px-4 py-2 rounded-lg bg-red-900/20 border border-red-500/20">
-    ❌ Bad plan
+  <div class="px-3 py-2 rounded-lg bg-red-900/20 border border-red-500/20">
+    ❌ Vague requirements, no specs
   </div>
   </v-click>
   <v-click>
-  <div class="px-4 py-2 rounded-lg bg-red-900/20 border border-red-500/20">
-    ❌ Missing design
+  <div class="px-3 py-2 rounded-lg bg-red-900/20 border border-red-500/20">
+    ❌ Missing design decisions
   </div>
   </v-click>
   <v-click>
-  <div class="px-4 py-2 rounded-lg bg-red-900/20 border border-red-500/20">
-    ❌ Unclear responsibilities
+  <div class="px-3 py-2 rounded-lg bg-red-900/20 border border-red-500/20">
+    ❌ No shared understanding
   </div>
   </v-click>
   <v-click>
-  <div class="px-4 py-2 rounded-lg bg-red-900/20 border border-red-500/20">
+  <div class="px-3 py-2 rounded-lg bg-red-900/20 border border-red-500/20">
     ❌ Implicit interfaces
+  </div>
+  </v-click>
+  <v-click>
+  <div class="px-3 py-2 rounded-lg bg-red-900/20 border border-red-500/20">
+    ❌ Anemic specs & examples
+  </div>
+  </v-click>
+  <v-click>
+  <div class="px-3 py-2 rounded-lg bg-red-900/20 border border-red-500/20">
+    ❌ Confused test levels
   </div>
   </v-click>
 </div>
@@ -89,29 +94,24 @@ A sleek robotic hand reaching out to receive crumpled, torn paper and tangled wi
 
 <!--
 ## 🇫🇷 Script (30–60 s)
-Si les responsabilités sont vagues, les interfaces restent implicites, et le design n'est pas explicité, les agents vont produire du résultat plausible mais fragile. Ils ne sont pas stupides — ils font de leur mieux avec ce qu'on leur donne. Le vrai levier, ce n'est pas juste le prompt ; c'est la qualité du matériel qu'on transmet.
+Si les exigences restent vagues, le design absent, la compréhension non partagée, les interfaces implicites, les spécifications anémiques et les niveaux de test confondus — les agents vont produire du résultat plausible mais fragile. Ils ne sont pas stupides — ils font de leur mieux avec ce qu'on leur donne. Le vrai levier, ce n'est pas juste le prompt ; c'est la qualité du matériel qu'on transmet.
 
 - - -
 
 ## 🇬🇧 Script (30–60 s)
-If responsibilities are vague, interfaces remain implicit, and design is left unspoken, the agents will produce plausible but fragile output. They are not stupid — they do their best with what we give them. So the real leverage is not just the prompt; it is the quality of the material we hand over.
+If requirements stay vague, design is absent, understanding is not shared, interfaces remain implicit, specs are anemic, and test levels are confused — agents will produce plausible but fragile output. They are not stupid — they do their best with what we give them. So the real leverage is not just the prompt; it is the quality of the material we hand over.
 
 - - -
 
 ## 🎯 One-sentence message
-**Agents fail when they receive vague responsibilities, implicit interfaces, and missing design — producing output that is plausible but fragile.**
+**Agents fail when they inherit our methodological shortcuts — vague requirements, missing design, anemic specs, confused test levels — producing output that is plausible but fragile.**
 
 ## 🎭 Slide objective
 Make the connection between human methodological failures and AI output quality explicit and concrete.
 
 ## 🖥️ What to put on screen
-- Inputs: ❌ Bad plan / ❌ Missing design / ❌ Unclear responsibilities / ❌ Implicit interfaces
+- Inputs: ❌ Vague requirements, no specs / ❌ Missing design decisions / ❌ No shared understanding / ❌ Implicit interfaces / ❌ Anemic specs & examples / ❌ Confused test levels
 - → 🤖 Agent → Plausible but fragile output
-
-- - -
-
-## 🎨 AI Image Prompt
-An industrial pipeline where flawed glowing raw materials enter from the left, pass through a pristine processing machine in the center, and exit as a finished product with visible hairline cracks on the right. Deep dark industrial background, blue (#0F9ED5) machine glow, subtle crimson (#BB3949) fracture lines on the output. Style: industrial design visualization, no text, 16:9.
 -->
 
 ---
@@ -142,9 +142,4 @@ Land the "everything connects" insight as a quiet, powerful closing beat before 
 ## 🖥️ What to put on screen
 - "The real leverage is not the prompt."
 - "It's the quality of the material we hand over."
-
-- - -
-
-## 🎨 AI Image Prompt
-A single rough uncut diamond sitting on a clean dark obsidian surface — dramatic side lighting from the left reveals its hidden internal crystalline structure and potential brilliance. Deep navy (#2D354B) background, warm golden light penetrating the raw stone. Style: premium macro product photography, single focal point, no text, 16:9.
 -->

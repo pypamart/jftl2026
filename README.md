@@ -50,6 +50,22 @@ pnpm export
 
 The entry point is [slides.md](./slides.md), which imports each section from [slides-sections/](./slides-sections/).
 
+### Sections
+
+| # | Section | Techniques |
+|---|---------|------------|
+| 01 | Opening & Hook | — |
+| 02 | Distort the Meaning | #0 |
+| 03 | Vibe Coding vs SDD | #1 |
+| 04 | Requirement ≠ Specification | #2 |
+| 05 | Sabotaging BDD | #3, #4 |
+| 06 | Sabotaging BDD Practices | #5, #6 |
+| 07 | Design, ATDD & TDD | #7, #8, #9 |
+| 09 | Making Agents Fail | #10 |
+| 10 | Our Role Tomorrow | — |
+
+See [slides-sections/README.md](./slides-sections/README.md) for the full slide architecture, technique numbering, and custom layouts.
+
 ## Deployment
 
 - **Netlify**: See [netlify.toml](./netlify.toml) for configuration

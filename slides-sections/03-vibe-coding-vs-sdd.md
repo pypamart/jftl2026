@@ -26,11 +26,6 @@ Introduce the first structural confusion — one that poisons every downstream a
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #1
 - "Confuse Vibe Coding & SDD"
-
-- - -
-
-## 🎨 AI Image Prompt
-Two parallel pathways diverging from a single bright point — one path is fluid and organic with warm amber tones, the other is structured and geometric with cool blue (#0F9ED5) precision. Deep navy (#2D354B) background, clean separation, symmetrical composition. Style: abstract infographic art, no text, 16:9.
 -->
 
 
@@ -84,11 +79,6 @@ Make the difference in nature between the two approaches visible with a crisp si
 
 ## 🖥️ What to put on screen
 - Two columns: Vibe Coding (intention → production → correction, prototyping) vs SDD (specify → plan → build → verify → validate, complex systems)
-
-- - -
-
-## 🎨 AI Image Prompt
-Split-screen diptych — left half shows an impressionistic fluid paint flow in warm tones (intuition, vibe), right half shows a precise architectural blueprint grid in cool blue (#0F9ED5). Sharp clean vertical division line in the center, deep dark background. Style: conceptual diptych, balanced visual weight, no text, 16:9.
 -->
 
 ---
@@ -130,9 +120,4 @@ Anchor the contrast with a memorable closing statement before moving to the next
 ## 🖥️ What to put on screen
 - "Vibe coding works for prototyping."
 - "SDD is for systems that need to survive reality."
-
-- - -
-
-## 🎨 AI Image Prompt
-A delicate glass prototype sculpture sitting next to a massive reinforced steel architectural model — both beautiful, clearly built for different purposes. Dark studio lighting against navy (#2D354B) background, single directional spotlight, dramatic material contrast. Style: product photography aesthetic, minimal, no text, 16:9.
 -->

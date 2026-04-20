@@ -33,11 +33,6 @@ Make the conference promise explicit from the start — the audience immediately
 - AI + software quality
 - Mission: ruin their approach
 - Scope: requirements → validated feature
-
-- - -
-
-## 🎨 AI Image Prompt
-Abstract overhead view of a pristine geometric process diagram where a single crimson (#BB3949) element has been deliberately shifted out of alignment, disrupting the entire flow. Deep black background, crisp white and blue (#0F9ED5) lines for the intact structure, subtle red glow radiating from the displaced piece. Style: McKinsey-grade editorial data art, ultra-minimal, no text, 16:9.
 -->
 
 ---
@@ -71,11 +66,6 @@ Create a safe frame for humor and self-irony before the sabotage journey begins.
 - My views only
 - Heavy use of irony
 - If you have lived through this, you are not alone
-
-- - -
-
-## 🎨 AI Image Prompt
-A single amber warning triangle floating in vast empty space, softly glowing against a deep navy (#2D354B) void. The triangle is slightly tilted suggesting playfulness within seriousness. Minimal, cinematic, one light source from behind, no text. Style: premium keynote background, 16:9.
 -->
 
 ---
@@ -162,9 +152,4 @@ Set the cadence and avoid accidental interruptions during the session.
 - PDF of the slides
 - Questions at the end
 - Possible discussion afterward
-
-- - -
-
-## 🎨 AI Image Prompt
-Three elegant floating glass objects — a document, a speech bubble, and a coffee cup — arranged with generous spacing on a deep navy (#2D354B) gradient. Soft studio lighting, pristine reflections, vast negative space. Style: Apple keynote product aesthetic, no text, 16:9.
 -->
