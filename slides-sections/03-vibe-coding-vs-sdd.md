@@ -37,8 +37,6 @@ Two parallel pathways diverging from a single bright point — one path is fluid
 
 ---
 layout: two-cols-compare
-# leftImage: /vibe-coding-workflow.png
-# rightImage: /sdd-process.png
 ---
 
 # Two very different approaches
@@ -52,6 +50,8 @@ layout: two-cols-compare
 - Fast iteration on small scope
 - Great for **prototyping**
 - Limits: large systems, legacy, architecture
+
+<img src="/vibe-coding-workflow.png" class="flex-1 min-h-0 w-full object-contain object-top" style="min-height:0" />
 
 ::right::
 
