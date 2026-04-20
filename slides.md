@@ -79,10 +79,6 @@ src: ./slides-sections/07-the-missing-piece-design.md
 ---
 
 ---
-src: ./slides-sections/08-bdd-atdd-tdd-confusion.md
----
-
----
 src: ./slides-sections/09-making-agents-fail.md
 ---
 

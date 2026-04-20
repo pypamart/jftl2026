@@ -9,7 +9,7 @@ This repository contains the Slidev presentation for the JFTL 2026 talk by **Pie
 
 This talk explores, through a satirical "saboteur's guide" framing, the most common ways BDD, ATDD and TDD are misunderstood and misapplied — especially in the age of AI-assisted, spec-driven development.
 
-The narrative is structured around **10 sabotage techniques**, from distorting the meaning of BDD to making AI agents fail by feeding them hollow specifications.
+The narrative is structured around **10 sabotage techniques**, from distorting the meaning of BDD to making AI agents fail by feeding them anemic specifications.
 
 See [slides-sections/README.md](./slides-sections/README.md) for the full slide architecture and technique numbering.
 
