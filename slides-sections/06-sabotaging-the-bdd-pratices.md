@@ -18,7 +18,7 @@ If the team starts doing good work and running Example Mapping sessions, we need
 - - -
 
 ## 🎯 One-sentence message
-**A failed Example Mapping session creates hollow specifications and therefore fragile implementations.**
+**A failed Example Mapping session creates anemic specifications and therefore fragile implementations.**
 
 ## 🎭 Slide objective
 Target the discovery workshop directly — the session where real quality is built or lost.
@@ -238,7 +238,7 @@ number: 6
 transition: fade
 ---
 
-Write hollow Gherkin
+Write anemic Gherkin
 
 <!--
 ## 🇫🇷 Script (30–60 s)
@@ -259,7 +259,7 @@ Show that the problem is less the tool than its impoverished use — and set up 
 
 ## 🖥️ What to put on screen
 - Cinematic chapter card — SABOTAGE TECHNIQUE #7
-- "Write hollow Gherkin"
+- "Write anemic Gherkin"
 
 - - -
 
@@ -268,57 +268,132 @@ Two identical transparent vessels on a dark surface — one is a beautiful but c
 -->
 
 ---
+clicks: 2
+---
+
+# What is Formulation?
+
+<div class="relative h-[78%] mt-4">
+
+  <!-- Divider: reveals at click 1 -->
+  <div
+    class="absolute top-0 bottom-0 border-l border-white/10 transition-opacity duration-700"
+    style="left: 33%;"
+    :style="{ opacity: $clicks >= 1 ? 1 : 0 }"
+  />
+
+  <!-- bddbooks-bdd-what-is-bdd.png — starts full in col 2, centered alone at click 1, top thumbnail at click 2 -->
+  <img
+    src="/bddbooks-bdd-what-is-bdd.png"
+    class="absolute object-contain transition-all duration-700 ease-in-out"
+    :style="{
+      left:   $clicks >= 1 ? '0%'  : '33%',
+      top:    $clicks >= 2 ? '3%'  : ($clicks >= 1 ? '28%' : '13%'),
+      width:  $clicks >= 1 ? '31%' : '67%',
+      height: $clicks >= 1 ? '44%' : '74%',
+    }"
+  />
+
+  <!-- bdd-formulate-process.png — fades in full right at click 1, glides to bottom thumbnail at click 2 -->
+  <img
+    src="/bdd-formulate-process.png"
+    class="absolute object-contain transition-all duration-700 ease-in-out"
+    :style="{
+      left:   $clicks >= 2 ? '0%'  : '33%',
+      top:    $clicks >= 2 ? '53%' : '13%',
+      width:  $clicks >= 2 ? '31%' : '67%',
+      height: $clicks >= 2 ? '44%' : '74%',
+      opacity: $clicks >= 1 ? 1 : 0,
+    }"
+  />
+
+  <!-- loyalty-discount.feature — visible at click 2 -->
+  <div
+    class="absolute overflow-y-auto rounded-lg [&_pre]:!text-[0.30em] [&_pre]:!leading-snug [&_pre]:!m-0"
+    style="left: 34%; top: 0; width: 65%; height: 100%; background: #1e1e2e;"
+    v-show="$clicks >= 2"
+  >
+
+<<< @/public/loyalty-discount.feature
+
+  </div>
+
+  <!-- Citation: Fig. 5 — visible at click 0 only -->
+  <p
+    class="absolute transition-opacity duration-500 text-[0.58rem] leading-snug text-white/40 italic"
+    style="left: 35%; bottom: 0; width: 63%;"
+    :style="{ opacity: $clicks < 1 ? 1 : 0 }"
+  >
+    Rose, S. &amp; Nagy, G. (2020). <em>Discovery: Explore Behaviour Using Examples</em>. Leanpub. Fig. 5 — BDD practices.
+  </p>
+
+</div>
+
+<!--
+## 🇫🇷 Script (30–60 s)
+
+### Affichage initial — les trois pratiques BDD
+Rappel rapide : le BDD se décompose en trois pratiques — Discovery, Formulation, Automation. On vient de voir la Discovery avec l'Example Mapping. Passons maintenant à la Formulation.
+
+### Clic 1 — Le processus de Formulation
+La Formulation, c'est l'étape où l'équipe traduit les exemples issus de l'Example Mapping en artefacts écrits et exploitables. Le format le plus répandu aujourd'hui : le Gherkin. Et ce qui est essentiel, c'est que le Gherkin bien écrit n'est pas juste un script de test — c'est une spécification vivante, compréhensible à la fois par les humains et par l'IA.
+
+- - -
+
+## 🇬🇧 Script (30–60 s)
+
+### Initial display — the three BDD practices
+Quick reminder: BDD breaks down into three practices — Discovery, Formulation, Automation. We've just seen Discovery with Example Mapping. Now let's move to Formulation.
+
+### Click 1 — The Formulation process
+Formulation is the step where the team translates the examples from Example Mapping into written, actionable artefacts. The most common format today: Gherkin. And what's essential is that well-written Gherkin isn't just a test script — it's a living specification, usable by both humans and AI.
+
+- - -
+
+## 🎯 One-sentence message
+**Formulation is where shared understanding becomes a written, living artefact — the specification.**
+
+## 🎭 Slide objective
+Transition from Discovery (Example Mapping) to Formulation, setting up the contrast between anemic and rich Gherkin.
+
+## 🖥️ What to put on screen
+- BDD practices diagram → Formulation process diagram
+
+- - -
+
+## 🎨 AI Image Prompt
+A blank index card being carefully written on with a precise ink pen — the card sits on a dark surface, other blank cards visible in the background. Single overhead spotlight, clean shadows. Style: editorial still life, no text, 16:9.
+-->
+
+---
 layout: two-cols-compare
 ---
 
-# Gherkin: hollow vs. rich
+# Gherkin: anemic vs. rich
 
 ::left::
 
-## Hollow Gherkin
+## Anemic Gherkin
 
-```gherkin
-Feature: Coffee
+<div class="overflow-y-auto max-h-[55vh]">
 
-  Scenario: Order
-    Given I click on "Login" button
-    When I select "Latte" in
-      the dropdown menu
-    And I click on "Add to cart"
-    And I click on "Pay now"
-    Then the order_table should
-      contain 1 row
-```
+<<< @/public/loyalty-discount-bad.feature
 
-*No context, no rules, no tags,
-solution-oriented wording*
+</div>
+
+*No context, no rules, no tags, solution-oriented wording*
 
 ::right::
 
 ## Rich Gherkin
 
-```gherkin
-# Ref: LOYALTY-42 — Discount rules
-# Owner: @product-cafe
-@loyalty @pricing @sprint-12
-Feature: Loyalty discount on
-  coffee orders
-  Returning customers with a
-  loyalty card receive a 10%
-  discount after their 10th
-  purchase.
+<div class="overflow-y-auto max-h-[55vh]">
 
-  Scenario: Loyal customer gets
-    a discount after 10 purchases
-    Given a customer who completed
-      10 previous orders
-    When they order a "Caffè Latte"
-      priced at €4.50
-    Then the total should be €4.05
-```
+<<< @/public/loyalty-discount.feature
 
-*Tags, refs, business language,
-meaningful scenarios*
+</div>
+
+*Tags, refs, business language, business rules, meaningful scenarios*
 
 <!--
 ## 🇫🇷 Script (30–60 s)
@@ -327,7 +402,7 @@ meaningful scenarios*
 - - -
 
 ## 🇬🇧 Script (30–60 s)
-On the left, hollow Gherkin: solution-oriented technical wording, no context, no tags, no comments, no links to reference documentation. We have the appearance of rigor — but not the substance. On the right, good modern Gherkin that can become a real working artifact: comments, tags, reference links, coherent scenarios, relevant examples. At that point, you no longer have a rough testing draft. You have a specification the team can actually use — and that AI can also exploit effectively.
+On the left, anemic Gherkin: solution-oriented technical wording, no context, no tags, no comments, no links to reference documentation. We have the appearance of rigor — but not the substance. On the right, good modern Gherkin that can become a real working artifact: comments, tags, reference links, coherent scenarios, relevant examples. At that point, you no longer have a rough testing draft. You have a specification the team can actually use — and that AI can also exploit effectively.
 
 - - -
 
@@ -338,11 +413,11 @@ On the left, hollow Gherkin: solution-oriented technical wording, no context, no
 Make the qualitative difference visceral with a real before/after code example the audience can feel.
 
 ## 🖥️ What to put on screen
-- Left (hollow): solution-oriented Gherkin with no context, no tags, no comments
+- Left (anemic): solution-oriented Gherkin with no context, no tags, no comments
 - Right (rich): feature with tags, comments, business language, reference, meaningful scenario
 
 - - -
 
 ## 🎨 AI Image Prompt
-Split composition — left side shows a thin, fragile wireframe structure with empty voids visible through it (hollow), right side shows the same form but richly filled with glowing interconnected nodes and data streams. Deep navy (#2D354B) background, left desaturated, right vibrant blue (#0F9ED5). Style: abstract architectural comparison, no text, 16:9.
+Split composition — left side shows a thin, fragile wireframe structure with empty voids visible through it (anemic), right side shows the same form but richly filled with glowing interconnected nodes and data streams. Deep navy (#2D354B) background, left desaturated, right vibrant blue (#0F9ED5). Style: abstract architectural comparison, no text, 16:9.
 -->

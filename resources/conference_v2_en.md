@@ -266,7 +266,7 @@ This version is more operational: for each slide you get the objective, the core
     Provide a concrete list of visible bad practices.
 
     **One-sentence message**  
-    A failed Example Mapping session creates hollow specifications and therefore fragile implementations.
+    A failed Example Mapping session creates anemic specifications and therefore fragile implementations.
 
     **What to put on screen**
     - Forget rules
