@@ -23,7 +23,7 @@ defineProps<{
         </div>
         <div class="compare-col col-bad">
           <div class="col-badge bad" aria-hidden="true">✗</div>
-          <div class="col-content">
+          <div class="col-content" @wheel.stop>
             <slot name="left" />
           </div>
         </div>
@@ -43,7 +43,7 @@ defineProps<{
         </div>
         <div class="compare-col col-good">
           <div class="col-badge good" aria-hidden="true">✓</div>
-          <div class="col-content">
+          <div class="col-content" @wheel.stop>
             <slot name="right" />
           </div>
         </div>
@@ -84,19 +84,19 @@ defineProps<{
 /* ── Grid ───────────────────────────────────────── */
 .compare-grid {
   flex: 1;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 50px 1fr;
   align-items: stretch;
-  gap: 0;
   min-height: 0;
 }
 
 /* ── Col wrapper (image + card) ─────────────────── */
 .col-wrapper {
-  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
   min-height: 0;
+  min-width: 0;
   padding-top: 12px; /* room for the badge that overflows the col top */
 }
 
@@ -182,6 +182,36 @@ defineProps<{
 .col-content :deep(em) {
   color: rgba(255, 255, 255, 0.55);
   font-style: italic;
+}
+
+/* ── Code blocks (Shiki / <<< imports) ──────────── */
+.col-content :deep(.slidev-code),
+.col-content :deep([class*="language-"]) {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  margin: 0 0 0.4em !important;
+}
+
+.col-content :deep(pre) {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto !important;
+  font-size: 0.33em !important;
+  line-height: 1.45 !important;
+  margin: 0 !important;
+  padding: 0.6em 0.8em !important;
+  border-radius: 6px;
+}
+
+/* Preserve empty lines rendered by Shiki as height-less spans */
+.col-content :deep(.line:empty),
+.col-content :deep(.line:not(:has(*)):not(:has(text))) {
+  display: block;
+  min-height: 1.45em;
 }
 
 /* ── Separator ──────────────────────────────────── */

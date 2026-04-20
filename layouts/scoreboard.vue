@@ -46,7 +46,7 @@ const techniques = [
   "Don't know what BDD is",
   'Reduce BDD to testing',
   'Sabotage Example Mapping',
-  'Write hollow Gherkin',
+  'Write anemic Gherkin',
   'Skip design',
   'Flatten BDD / ATDD / TDD',
   'Sell fake TDD',
