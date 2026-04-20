@@ -1,6 +1,6 @@
 ---
 layout: technique-card
-number: 5
+number: 7
 transition: fade
 ---
 
@@ -8,12 +8,12 @@ Skip design entirely
 
 <!--
 ## 🇫🇷 Script (30–60 s)
-Et il y a une pièce manquante majeure : le design. C'est la partie que beaucoup de talks sur le BDD n'abordent jamais. Et c'est exactement pour ça que c'est une technique de sabotage en or.
+Le dogmatisme sur le process BDD est déjà un excellent moyen de saboter. Mais il y a une pièce manquante majeure : le design. C'est la partie que beaucoup de talks sur le BDD n'abordent jamais. Et c'est exactement pour ça que c'est une technique de sabotage en or.
 
 - - -
 
 ## 🇬🇧 Script (30–60 s)
-And there is a major missing piece: design. It is the part that most BDD talks never address. And that is exactly why it is a golden sabotage technique.
+The dogmatism around the BDD process is already a great way to sabotage. But there is a major missing piece: design. It is the part that most BDD talks never address. And that is exactly why it is a golden sabotage technique.
 
 - - -
 

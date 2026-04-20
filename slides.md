@@ -71,11 +71,11 @@ src: ./slides-sections/05-sabotaging-bdd.md
 ---
 
 ---
-src: ./slides-sections/06-the-missing-piece-design.md
+src: ./slides-sections/06-sabotaging-the-bdd-pratices.md
 ---
 
 ---
-src: ./slides-sections/07-sabotaging-the-tools.md
+src: ./slides-sections/07-the-missing-piece-design.md
 ---
 
 ---

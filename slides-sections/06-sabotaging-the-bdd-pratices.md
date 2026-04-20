@@ -1,6 +1,6 @@
 ---
 layout: technique-card
-number: 6
+number: 5
 transition: fade
 ---
 
@@ -92,7 +92,7 @@ A pristine white checklist paper artifact with every checkbox marked by a bold c
 
 ---
 layout: technique-card
-number: 7
+number: 6
 transition: fade
 ---
 
