@@ -38,6 +38,11 @@
   background-color: #2D354B;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
+  /* Prevent blur during GPU-composited slide transitions (slide-left uses transform) */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 /* ─── Titres ─────────────────────────────────────────────────────────────── */
