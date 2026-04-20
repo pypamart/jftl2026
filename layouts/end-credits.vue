@@ -5,7 +5,7 @@
     <div class="end-glow-2" aria-hidden="true" />
 
     <div class="end-content">
-      <div class="end-thanks">Thank you</div>
+      <div class="end-thanks">Thank You</div>
       <div class="end-divider" aria-hidden="true" />
       <div class="end-body">
         <slot />
