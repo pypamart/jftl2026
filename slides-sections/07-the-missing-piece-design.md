@@ -75,11 +75,12 @@ Two parallel workshop stations side by side — the left has a direct hand writi
 -->
 
 ---
+clicks: 7
 layout: default
 ---
 
-<div class="overflow-x-auto h-[100%] flex items-center">
-  <img src="/plan-construct-process.png"/>
+<div class="flex items-center justify-center h-[100%] w-full">
+  <img :src="`/sdlc-process-${$clicks}.png`" class="w-full h-full object-contain" />
 </div>
 
 <!--
