@@ -73,6 +73,6 @@ Unpack the mechanic of meaning distortion as the root cause of methodological fa
 
 ## 🖥️ What to put on screen
 - Goal: create chaos
-- Zone: requirements → validation
+- Zone: requirements → verified
 - Foundation: misunderstanding
 -->

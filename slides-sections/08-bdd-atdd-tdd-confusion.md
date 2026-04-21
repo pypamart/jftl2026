@@ -96,7 +96,7 @@ Make the flattening visible as a deliberate destructive act, not just a minor si
     What should the system do?
   </div>
   <div class="absolute bottom-3 right-4 text-xs text-white/40">
-    Validate expected behavior
+    Verify expected behavior
   </div>
 </div>
 

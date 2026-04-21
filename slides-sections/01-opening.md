@@ -7,7 +7,7 @@ We will follow a modern, software craft-oriented team that wants to use AI to bu
 
 # **Our mission: ruin their approach.**
 
-## From requirement to validated feature — everything is fair game.
+## From requirement to verified feature — everything is fair game.
 
 <!--
 ## 🇫🇷 Script (30–60 s)
@@ -18,7 +18,7 @@ Et pendant cette conférence, nous allons faire exactement le contraire de ce qu
 - - -
 
 ## 🇬🇧 Script (30–60 s)
-I'd like to use a slightly unusual format today: we are going to follow a modern, serious, craft-oriented team that wants to use AI to build quality software. And during this talk, we are going to do exactly the opposite of what they should do: we are going to try to ruin their approach with a st of sabotages techniques. The goal is to explore everything that happens between a requirement and a feature that is actually developed and validated.
+I'd like to use a slightly unusual format today: we are going to follow a modern, serious, craft-oriented team that wants to use AI to build quality software. And during this talk, we are going to do exactly the opposite of what they should do: we are going to try to ruin their approach with a st of sabotages techniques. The goal is to explore everything that happens between a requirement and a feature that is actually developed and verified.
 
 - - -
 
@@ -32,7 +32,7 @@ Make the conference promise explicit from the start — the audience immediately
 - A future craft-oriented team
 - AI + software quality
 - Mission: ruin their approach
-- Scope: requirements → validated feature
+- Scope: requirements → verified feature
 -->
 
 ---
