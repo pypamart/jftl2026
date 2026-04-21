@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import { resolvePublicPath } from '../setup/usePublicPath'
+import { resolvePublicPath } from '../composables/usePublicPath'
 const props = defineProps({
   bgImage:   { type: String,  default: null },
   imageSide: { type: String,  default: 'right' }, // 'left' | 'right'

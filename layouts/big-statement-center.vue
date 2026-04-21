@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import { resolvePublicPath } from '../setup/usePublicPath'
+import { resolvePublicPath } from '../composables/usePublicPath'
 const props = defineProps({
   bgImage:    { type: String,  default: null },
   imageScale: { type: Number,  default: 0.55 }, // fraction of slide width, e.g. 0.55 = 55%

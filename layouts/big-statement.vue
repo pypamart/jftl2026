@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import { resolvePublicPath } from '../setup/usePublicPath'
+import { resolvePublicPath } from '../composables/usePublicPath'
 const props = defineProps({ bgImage: String })
 const resolvedBgImage = computed(() => resolvePublicPath(props.bgImage))
 </script>
