@@ -1,6 +1,14 @@
 
 # JFTL 2026 — Conference Talk Slide Deck
 
+---
+
+## 🎯 View the presentation online
+
+> **[👉 https://pypamart.github.io/jftl2026/](https://pypamart.github.io/jftl2026/)**
+
+---
+
 This repository contains the Slidev presentation for the JFTL 2026 talk by **Pierre-Yves PAMART**:
 
 > *Un développeur infiltré chez les testeurs : comment faire échouer le BDD, l'ATDD & le TDD — surtout à l'ère du Spec-Driven Development*
