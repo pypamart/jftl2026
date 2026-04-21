@@ -1,9 +1,12 @@
 <script setup>
+import { computed } from 'vue'
+import { resolvePublicPath } from '../setup/usePublicPath'
 const props = defineProps({
   bgImage:   { type: String,  default: null },
   imageSide: { type: String,  default: 'right' }, // 'left' | 'right'
   imageSize: { type: String,  default: '45%' },   // CSS width for the image column
 })
+const resolvedBgImage = computed(() => resolvePublicPath(props.bgImage))
 </script>
 
 <template>
@@ -19,8 +22,8 @@ const props = defineProps({
     <!-- Image column -->
     <div class="bss-image-col" :style="{ width: imageSize, minWidth: imageSize }">
       <img
-        v-if="bgImage"
-        :src="bgImage"
+        v-if="resolvedBgImage"
+        :src="resolvedBgImage"
         class="bss-img"
         aria-hidden="true"
       />

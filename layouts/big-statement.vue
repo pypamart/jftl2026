@@ -1,18 +1,21 @@
 <script setup>
-defineProps({ bgImage: String })
+import { computed } from 'vue'
+import { resolvePublicPath } from '../setup/usePublicPath'
+const props = defineProps({ bgImage: String })
+const resolvedBgImage = computed(() => resolvePublicPath(props.bgImage))
 </script>
 
 <template>
   <div class="big-statement-layout slidev-layout">
     <!-- Optional background image, dimmed -->
     <img
-      v-if="bgImage"
-      :src="bgImage"
+      v-if="resolvedBgImage"
+      :src="resolvedBgImage"
       class="bg-image"
       aria-hidden="true"
     />
     <!-- Dark overlay to keep text legible over the image -->
-    <div v-if="bgImage" class="bg-overlay" aria-hidden="true" />
+    <div v-if="resolvedBgImage" class="bg-overlay" aria-hidden="true" />
     <!-- Subtle centered glow -->
     <div class="glow" aria-hidden="true" />
 

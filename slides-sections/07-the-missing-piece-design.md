@@ -69,8 +69,12 @@ clicks: 7
 layout: default
 ---
 
+<script setup>
+const base = import.meta.env.BASE_URL
+</script>
+
 <div class="flex items-center justify-center h-[100%] w-full">
-  <img :src="`/sdlc-process-${$clicks}.png`" class="w-full h-full object-contain" />
+  <img :src="`${base}sdlc-process-${$clicks}.png`" class="w-full h-full object-contain" />
 </div>
 
 <!--

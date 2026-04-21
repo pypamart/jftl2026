@@ -1,4 +1,6 @@
 <script setup>
+import { computed } from 'vue'
+import { resolvePublicPath } from '../setup/usePublicPath'
 const props = defineProps({
   bgImage:    { type: String,  default: null },
   imageScale: { type: Number,  default: 0.55 }, // fraction of slide width, e.g. 0.55 = 55%
@@ -6,6 +8,7 @@ const props = defineProps({
 
 // Convert fraction → CSS width (capped between 20% and 90%)
 const imgWidth = `${Math.min(90, Math.max(20, props.imageScale * 100))}%`
+const resolvedBgImage = computed(() => resolvePublicPath(props.bgImage))
 </script>
 
 <template>
@@ -17,10 +20,10 @@ const imgWidth = `${Math.min(90, Math.max(20, props.imageScale * 100))}%`
     </div>
 
     <!-- Centered image with radial glow -->
-    <div class="bsc-image-wrap" v-if="bgImage">
+    <div class="bsc-image-wrap" v-if="resolvedBgImage">
       <div class="bsc-glow" aria-hidden="true" />
       <img
-        :src="bgImage"
+        :src="resolvedBgImage"
         class="bsc-img"
         :style="{ width: imgWidth }"
         aria-hidden="true"
